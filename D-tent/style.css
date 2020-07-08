@@ -122,6 +122,7 @@
 .gsm {
   display: flex;
   color: white;
+  justify-content: center;
 }
 .gsm-icon {
   color: yellow;
@@ -130,7 +131,7 @@
 }
 .gsm-text {
   text-align: center;
-  margin: auto;
+  margin: 0;
   font-weight: 500;
   font-size: large;
 }
