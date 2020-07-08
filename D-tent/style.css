@@ -125,7 +125,7 @@
 }
 .gsm-icon {
   color: yellow;
-  margin: auto 20px;
+  margin: auto 20px auto 0;
   font-size: 1.5rem;
 }
 .gsm-text {
