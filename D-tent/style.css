@@ -364,6 +364,42 @@
 .desctop-hide {
   display: none;
 }
+.adresmap {
+  display: flex;
+  background-color: rgba(196, 196, 196, 0.486);
+}
+.adres-wraper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adres {
+  width: 100%;
+  height: 80%;
+  border-left: black solid 1px;
+  padding: 0 30px 30px 30px;
+}
+.adres h3 {
+  font-weight: 600;
+}
+.map-wraper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map {
+  height: 100px;
+  width: 50%;
+  background-image: url(./pics/map.png);
+  background-size: cover;
+}
+.map a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 
 @media screen and (max-width: 1000px) {
   .mobile-hide {
