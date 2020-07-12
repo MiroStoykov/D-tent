@@ -367,6 +367,23 @@
 .adresmap {
   display: flex;
   background-color: rgba(196, 196, 196, 0.486);
+  position: relative;
+}
+.adresmap::after {
+  content: "";
+  height: 1px;
+  width: 45%;
+  background-color: black;
+  position: absolute;
+  left: 2.5%;
+}
+.adresmap::before {
+  content: "";
+  height: 1px;
+  width: 45%;
+  background-color: black;
+  position: absolute;
+  right: 2.5%;
 }
 .adres-wraper {
   width: 50%;
