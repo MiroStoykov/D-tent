@@ -429,13 +429,15 @@
   grid-template-rows: repeat(3, 250px);
   grid-gap: 5px;
 }
-.pics a {
-  object-fit: cover;
-}
-.pics img {
+.pics a img {
   min-width: 100%;
   max-width: 100%;
+  min-height: 100%;
   max-height: 100%;
+  object-fit: cover;
+}
+.contacts-body {
+  background-color: rgba(196, 196, 196, 0.486);
 }
 
 @media screen and (max-width: 1500px) {
