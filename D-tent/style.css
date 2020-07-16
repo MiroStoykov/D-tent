@@ -541,6 +541,12 @@
   .pics {
     grid-template-rows: repeat(3, 100px);
   }
+  #no-padding {
+    padding: 20px 0 20px 0;
+  }
+  #no-margin {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 1300px) {
   .gsm-text {
