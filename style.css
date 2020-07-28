@@ -193,14 +193,10 @@
 }
 .product-info a {
   font-weight: 700;
-  color: black;
+  color: red;
   margin: 20px;
   text-decoration: none;
 }
-.product-info a:hover {
-  color: var(--main);
-}
-
 .product-img {
   width: 38%;
   display: flex;
